@@ -1,9 +1,12 @@
 // app/dashboard/page.tsx
-export default function Dashboard() {
+
+export default function DashboardPage() {
   return (
-    <main style={{ padding: '2rem' }}>
-      <h1>Bem-vindo ao Dashboard</h1>
-      <p>Você está logado!</p>
-    </main>
-  )
+    <div>
+      <h2>Bem-vindo ao Dashboard</h2>
+      <p>Aqui estão as métricas e informações importantes.</p>
+      {/* Adicione o conteúdo do seu dashboard aqui */}
+    </div>
+  );
 }
+
